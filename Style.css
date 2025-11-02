@@ -7,4 +7,42 @@ body {
 
 h1, h2 {
     color: #333;
+    border-bottom: 2px solid #005a9c;
+    padding-bottom: 5px;
+}
+
+/* ---TABLA DE HORARIO --- */
+table.horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+table.horario th,
+table.horario td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+table.horario th {
+    background-color: #005a9c;
+    color: white;
+}
+
+table.horario td {
+    background-color: #fff;
+    min-height: 60px;
+}
+
+table.horario td.empty {
+    background-color: #f9f9f9;
+}
+
+table.horario td b {
+    color: #003366;
+    display: block;
+    margin-bottom: 5px;
 }
