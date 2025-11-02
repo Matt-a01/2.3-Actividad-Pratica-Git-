@@ -46,3 +46,8 @@ table.horario td b {
     display: block;
     margin-bottom: 5px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
